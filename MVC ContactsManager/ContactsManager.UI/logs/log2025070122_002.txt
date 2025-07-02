@@ -1,0 +1,491 @@
+2025-07-01 22:26:50.486 -05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-07-01 22:26:50.495 -05:00 [INF] Hosting environment: Development
+2025-07-01 22:26:50.497 -05:00 [INF] Content root path: C:\Users\sebas\Downloads\MVC\MVC ContactsManager\ContactsManager.UI\
+2025-07-01 22:29:38.710 -05:00 [INF] Entity Framework Core 6.0.9 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2025-07-01 22:30:00.364 -05:00 [INF] Entity Framework Core 6.0.9 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2025-07-01 22:30:52.642 -05:00 [INF] Entity Framework Core 6.0.9 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2025-07-01 22:30:52.735 -05:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:30:52.759 -05:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:30:52.762 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:30:52.763 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:30:52.784 -05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-07-01 22:30:52.796 -05:00 [INF] Applying migration '20250702033000_Initialize'.
+2025-07-01 22:30:52.905 -05:00 [ERR] Failed executing DbCommand (37ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2025-07-01 22:31:26.074 -05:00 [INF] Entity Framework Core 6.0.9 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2025-07-01 22:31:26.161 -05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:31:26.183 -05:00 [INF] Executed DbCommand (12ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:31:26.186 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:31:26.186 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:31:26.198 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-07-01 22:31:26.209 -05:00 [INF] Applying migration '20250702033000_Initialize'.
+2025-07-01 22:31:26.281 -05:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2025-07-01 22:32:18.499 -05:00 [INF] Entity Framework Core 6.0.9 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2025-07-01 22:32:18.571 -05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:32:18.591 -05:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:32:18.593 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:32:18.594 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:32:18.603 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-07-01 22:32:18.614 -05:00 [INF] Applying migration '20250702033000_Initialize'.
+2025-07-01 22:32:18.677 -05:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2025-07-01 22:33:54.345 -05:00 [INF] Entity Framework Core 6.0.9 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2025-07-01 22:33:54.420 -05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:33:54.440 -05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:33:54.442 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:33:54.443 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:33:54.453 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-07-01 22:33:54.465 -05:00 [INF] Applying migration '20250702033000_Initialize'.
+2025-07-01 22:33:54.525 -05:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2025-07-01 22:34:35.217 -05:00 [INF] Entity Framework Core 6.0.9 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2025-07-01 22:34:35.289 -05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:34:35.310 -05:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:34:35.313 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:34:35.314 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:34:35.324 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-07-01 22:34:35.336 -05:00 [INF] Applying migration '20250702033000_Initialize'.
+2025-07-01 22:34:35.402 -05:00 [ERR] Failed executing DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2025-07-01 22:36:26.530 -05:00 [INF] Entity Framework Core 6.0.9 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2025-07-01 22:36:26.859 -05:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:36:26.912 -05:00 [INF] Executed DbCommand (44ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:36:26.915 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:36:26.915 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:36:27.182 -05:00 [INF] Executed DbCommand (256ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-07-01 22:36:27.196 -05:00 [INF] Applying migration '20250702033000_Initialize'.
+2025-07-01 22:36:27.505 -05:00 [ERR] Failed executing DbCommand (244ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2025-07-01 22:39:28.210 -05:00 [INF] Entity Framework Core 6.0.9 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2025-07-01 22:39:28.301 -05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:39:28.325 -05:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:39:28.329 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:39:28.329 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:39:28.341 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-07-01 22:39:28.352 -05:00 [INF] Applying migration '20250702033000_Initialize'.
+2025-07-01 22:39:28.425 -05:00 [ERR] Failed executing DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2025-07-01 22:41:06.381 -05:00 [INF] Entity Framework Core 6.0.9 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2025-07-01 22:41:26.021 -05:00 [INF] Entity Framework Core 6.0.9 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2025-07-01 22:41:26.254 -05:00 [INF] Executed DbCommand (14ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:41:26.304 -05:00 [INF] Executed DbCommand (39ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:41:26.306 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:41:26.307 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:41:26.322 -05:00 [INF] Executed DbCommand (4ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-07-01 22:41:26.337 -05:00 [INF] Applying migration '20250702034106_Initialize'.
+2025-07-01 22:41:26.427 -05:00 [ERR] Failed executing DbCommand (27ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2025-07-01 22:43:57.280 -05:00 [INF] Entity Framework Core 6.0.9 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2025-07-01 22:43:57.357 -05:00 [INF] Executed DbCommand (11ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:43:57.376 -05:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:43:57.378 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:43:57.610 -05:00 [INF] Executed DbCommand (139ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [__EFMigrationsHistory] (
+    [MigrationId] nvarchar(150) NOT NULL,
+    [ProductVersion] nvarchar(32) NOT NULL,
+    CONSTRAINT [PK___EFMigrationsHistory] PRIMARY KEY ([MigrationId])
+);
+2025-07-01 22:43:57.612 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-07-01 22:43:57.613 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-07-01 22:43:57.615 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-07-01 22:43:57.625 -05:00 [INF] Applying migration '20250702034106_Initialize'.
+2025-07-01 22:43:57.685 -05:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoles] (
+    [Id] uniqueidentifier NOT NULL,
+    [Name] nvarchar(256) NULL,
+    [NormalizedName] nvarchar(256) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoles] PRIMARY KEY ([Id])
+);
+2025-07-01 22:43:57.706 -05:00 [INF] Executed DbCommand (21ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUsers] (
+    [Id] uniqueidentifier NOT NULL,
+    [PersonName] nvarchar(max) NULL,
+    [UserName] nvarchar(256) NULL,
+    [NormalizedUserName] nvarchar(256) NULL,
+    [Email] nvarchar(256) NULL,
+    [NormalizedEmail] nvarchar(256) NULL,
+    [EmailConfirmed] bit NOT NULL,
+    [PasswordHash] nvarchar(max) NULL,
+    [SecurityStamp] nvarchar(max) NULL,
+    [ConcurrencyStamp] nvarchar(max) NULL,
+    [PhoneNumber] nvarchar(max) NULL,
+    [PhoneNumberConfirmed] bit NOT NULL,
+    [TwoFactorEnabled] bit NOT NULL,
+    [LockoutEnd] datetimeoffset NULL,
+    [LockoutEnabled] bit NOT NULL,
+    [AccessFailedCount] int NOT NULL,
+    CONSTRAINT [PK_AspNetUsers] PRIMARY KEY ([Id])
+);
+2025-07-01 22:43:57.708 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Countries] (
+    [CountryID] uniqueidentifier NOT NULL,
+    [CountryName] nvarchar(max) NULL,
+    CONSTRAINT [PK_Countries] PRIMARY KEY ([CountryID])
+);
+2025-07-01 22:43:57.736 -05:00 [INF] Executed DbCommand (28ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetRoleClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [RoleId] uniqueidentifier NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetRoleClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetRoleClaims_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE
+);
+2025-07-01 22:43:57.750 -05:00 [INF] Executed DbCommand (15ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserClaims] (
+    [Id] int NOT NULL IDENTITY,
+    [UserId] uniqueidentifier NOT NULL,
+    [ClaimType] nvarchar(max) NULL,
+    [ClaimValue] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserClaims] PRIMARY KEY ([Id]),
+    CONSTRAINT [FK_AspNetUserClaims_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2025-07-01 22:43:57.781 -05:00 [INF] Executed DbCommand (30ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserLogins] (
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [ProviderKey] nvarchar(450) NOT NULL,
+    [ProviderDisplayName] nvarchar(max) NULL,
+    [UserId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_AspNetUserLogins] PRIMARY KEY ([LoginProvider], [ProviderKey]),
+    CONSTRAINT [FK_AspNetUserLogins_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2025-07-01 22:43:57.783 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserRoles] (
+    [UserId] uniqueidentifier NOT NULL,
+    [RoleId] uniqueidentifier NOT NULL,
+    CONSTRAINT [PK_AspNetUserRoles] PRIMARY KEY ([UserId], [RoleId]),
+    CONSTRAINT [FK_AspNetUserRoles_AspNetRoles_RoleId] FOREIGN KEY ([RoleId]) REFERENCES [AspNetRoles] ([Id]) ON DELETE CASCADE,
+    CONSTRAINT [FK_AspNetUserRoles_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2025-07-01 22:43:57.785 -05:00 [INF] Executed DbCommand (2ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [AspNetUserTokens] (
+    [UserId] uniqueidentifier NOT NULL,
+    [LoginProvider] nvarchar(450) NOT NULL,
+    [Name] nvarchar(450) NOT NULL,
+    [Value] nvarchar(max) NULL,
+    CONSTRAINT [PK_AspNetUserTokens] PRIMARY KEY ([UserId], [LoginProvider], [Name]),
+    CONSTRAINT [FK_AspNetUserTokens_AspNetUsers_UserId] FOREIGN KEY ([UserId]) REFERENCES [AspNetUsers] ([Id]) ON DELETE CASCADE
+);
+2025-07-01 22:43:57.801 -05:00 [INF] Executed DbCommand (17ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE TABLE [Persons] (
+    [PersonID] uniqueidentifier NOT NULL,
+    [PersonName] nvarchar(40) NULL,
+    [Email] nvarchar(40) NULL,
+    [DateOfBirth] datetime2 NULL,
+    [Gender] nvarchar(10) NULL,
+    [CountryID] uniqueidentifier NULL,
+    [Address] nvarchar(200) NULL,
+    [ReceiveNewsLetters] bit NOT NULL,
+    [TaxIdentificationNumber] varchar(8) NULL DEFAULT 'ABC12345',
+    CONSTRAINT [PK_Persons] PRIMARY KEY ([PersonID]),
+    CONSTRAINT [CHK_TIN] CHECK (len([TaxIdentificationNumber]) = 8),
+    CONSTRAINT [FK_Persons_Countries_CountryID] FOREIGN KEY ([CountryID]) REFERENCES [Countries] ([CountryID])
+);
+2025-07-01 22:43:57.851 -05:00 [INF] Executed DbCommand (49ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'CountryID', N'CountryName') AND [object_id] = OBJECT_ID(N'[Countries]'))
+    SET IDENTITY_INSERT [Countries] ON;
+INSERT INTO [Countries] ([CountryID], [CountryName])
+VALUES ('12e15727-d369-49a9-8b13-bc22e9362179', N'Mexico'),
+('14629847-905a-4a0e-9abe-80b61655c5cb', N'Colombia'),
+('501c6d33-1bbe-45f1-8fbd-2275913c6218', N'Uruguay'),
+('56bf46a4-02b8-4693-a0f5-0a95e2218bdc', N'Argentina'),
+('8f30bedc-47dd-4286-8950-73d8a68e5d41', N'Brasil');
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'CountryID', N'CountryName') AND [object_id] = OBJECT_ID(N'[Countries]'))
+    SET IDENTITY_INSERT [Countries] OFF;
+2025-07-01 22:43:57.886 -05:00 [INF] Executed DbCommand (35ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'PersonID', N'Address', N'CountryID', N'DateOfBirth', N'Email', N'Gender', N'PersonName', N'ReceiveNewsLetters') AND [object_id] = OBJECT_ID(N'[Persons]'))
+    SET IDENTITY_INSERT [Persons] ON;
+INSERT INTO [Persons] ([PersonID], [Address], [CountryID], [DateOfBirth], [Email], [Gender], [PersonName], [ReceiveNewsLetters])
+VALUES ('012107df-862f-4f16-ba94-e5c16886f005', N'Av. Central 300, Puebla', '12e15727-d369-49a9-8b13-bc22e9362179', '1990-09-20T00:00:00.0000000', N'juan.ramirez@correo.com.mx', N'Male', N'Juan', CAST(1 AS bit)),
+('28d11936-9466-4a4b-b9c5-2f0a8e0cbde9', N'Calle Durazno 450, Montevideo', '501c6d33-1bbe-45f1-8fbd-2275913c6218', '1990-05-24T00:00:00.0000000', N'monica.alvarez@correo.com.uy', N'Female', N'Mónica', CAST(1 AS bit)),
+('29339209-63f5-492f-8459-754943c74abf', N'Av. Reforma 1500, Monterrey', '12e15727-d369-49a9-8b13-bc22e9362179', '1983-02-16T00:00:00.0000000', N'mateo.jimenez@correo.com.mx', N'Male', N'Mateo', CAST(1 AS bit)),
+('2a6d3738-9def-43ac-9279-0310edc7ceca', N'Rua das Flores 789, São Paulo', '8f30bedc-47dd-4286-8950-73d8a68e5d41', '1988-01-04T00:00:00.0000000', N'miguel.luna@correo.com.br', N'Male', N'Miguel', CAST(0 AS bit)),
+('89e5f445-d89f-4e12-94e0-5ad5b235d704', N'Calle San Martín 1212, Rosario', '56bf46a4-02b8-4693-a0f5-0a95e2218bdc', '1995-02-11T00:00:00.0000000', N'tatiana.ruiz@correo.com.ar', N'Gender', N'Tatiana', CAST(0 AS bit)),
+('a3b9833b-8a4d-43e9-8690-61e08df81a9a', N'Av. Italia 1233, Montevideo', '501c6d33-1bbe-45f1-8fbd-2275913c6218', '1987-01-19T00:00:00.0000000', N'veronica.gonzalez@correo.com.uy', N'Female', N'Verónica', CAST(1 AS bit)),
+('ac660a73-b0b7-4340-abc1-a914257a6189', N'Calle Juárez 432, Guadalajara', '12e15727-d369-49a9-8b13-bc22e9362179', '1998-12-02T00:00:00.0000000', N'valentina.mendez@correo.com.mx', N'Female', N'Valentina', CAST(1 AS bit)),
+('c03bbe45-9aeb-4d24-99e0-4743016ffce9', N'Av. Santa Fe 2450, Buenos Aires', '56bf46a4-02b8-4693-a0f5-0a95e2218bdc', '1989-08-28T00:00:00.0000000', N'sebastian@correo.com.ar', N'Female', N'Sebastián', CAST(0 AS bit)),
+('c3abddbd-cf50-41d2-b6c4-cc7d5a750928', N'Cra 7 #45-67, Bogotá', '14629847-905a-4a0e-9abe-80b61655c5cb', '1990-10-05T00:00:00.0000000', N'maria.lopez@correo.com.co', N'Female', N'María', CAST(0 AS bit)),
+('c6d50a47-f7e6-4482-8be0-4ddfc057fa6e', N'Calle 10 #23-55, Medellín', '14629847-905a-4a0e-9abe-80b61655c5cb', '1995-02-10T00:00:00.0000000', N'carlos.garcia@correo.com.co', N'Male', N'Carlos', CAST(1 AS bit)),
+('cb035f22-e7cf-4907-bd07-91cfee5240f3', N'Av. Atlântica 2222, Rio de Janeiro', '8f30bedc-47dd-4286-8950-73d8a68e5d41', '1997-09-25T00:00:00.0000000', N'esteban.oliveira@correo.com.br', N'Male', N'Esteban', CAST(0 AS bit)),
+('d15c6d9f-70b4-48c5-afd3-e71261f1a9be', N'Calle Insurgentes Sur 345, CDMX', '12e15727-d369-49a9-8b13-bc22e9362179', '1987-01-09T00:00:00.0000000', N'andres.silva@correo.com.mx', N'Male', N'Andrés', CAST(1 AS bit));
+IF EXISTS (SELECT * FROM [sys].[identity_columns] WHERE [name] IN (N'PersonID', N'Address', N'CountryID', N'DateOfBirth', N'Email', N'Gender', N'PersonName', N'ReceiveNewsLetters') AND [object_id] = OBJECT_ID(N'[Persons]'))
+    SET IDENTITY_INSERT [Persons] OFF;
+2025-07-01 22:43:59.305 -05:00 [INF] Executed DbCommand (61ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetRoleClaims_RoleId] ON [AspNetRoleClaims] ([RoleId]);
+2025-07-01 22:43:59.307 -05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [RoleNameIndex] ON [AspNetRoles] ([NormalizedName]) WHERE [NormalizedName] IS NOT NULL;
+2025-07-01 22:43:59.308 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserClaims_UserId] ON [AspNetUserClaims] ([UserId]);
+2025-07-01 22:43:59.308 -05:00 [INF] Executed DbCommand (0ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserLogins_UserId] ON [AspNetUserLogins] ([UserId]);
+2025-07-01 22:43:59.314 -05:00 [INF] Executed DbCommand (6ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_AspNetUserRoles_RoleId] ON [AspNetUserRoles] ([RoleId]);
+2025-07-01 22:44:01.677 -05:00 [INF] Executed DbCommand (22ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [EmailIndex] ON [AspNetUsers] ([NormalizedEmail]);
+2025-07-01 22:44:01.678 -05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE UNIQUE INDEX [UserNameIndex] ON [AspNetUsers] ([NormalizedUserName]) WHERE [NormalizedUserName] IS NOT NULL;
+2025-07-01 22:44:01.753 -05:00 [INF] Executed DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+CREATE INDEX [IX_Persons_CountryID] ON [Persons] ([CountryID]);
+2025-07-01 22:44:01.764 -05:00 [INF] Executed DbCommand (10ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250702034106_Initialize', N'6.0.9');
+2025-07-01 22:46:02.741 -05:00 [INF] User profile is available. Using 'C:\Users\sebas\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+2025-07-01 22:46:02.996 -05:00 [INF] Now listening on: https://localhost:5153
+2025-07-01 22:46:07.433 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5153/ - -
+2025-07-01 22:46:07.824 -05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+2025-07-01 22:46:08.262 -05:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI)'
+2025-07-01 22:46:08.302 -05:00 [INF] Route matched with {action = "Index", controller = "Persons", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManager.UI).
+2025-07-01 22:46:08.325 -05:00 [INF] Before logic - ResponseHeaderActionFilter
+2025-07-01 22:46:08.326 -05:00 [INF] Before logic - ResponseHeaderActionFilter
+2025-07-01 22:46:08.326 -05:00 [INF] Before logic - ResponseHeaderActionFilter
+2025-07-01 22:46:08.328 -05:00 [INF] PersonsListActionFilter.OnActionExecuting method
+2025-07-01 22:46:08.330 -05:00 [INF] Index action method of PersonsController
+2025-07-01 22:46:08.333 -05:00 [INF] GetFilteredPersons of PersonsService
+2025-07-01 22:46:08.335 -05:00 [INF] GetAllPersons of PersonsRepository
+2025-07-01 22:46:09.294 -05:00 [INF] Entity Framework Core 6.0.9 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2025-07-01 22:46:09.824 -05:00 [INF] Executed DbCommand (75ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2025-07-01 22:46:09.959 -05:00 [INF] Time for Filtered Persons from Database completed in 1624.1 ms
+2025-07-01 22:46:09.983 -05:00 [INF] GetSortedPersons of PersonsService
+2025-07-01 22:46:10.026 -05:00 [INF] PersonsListActionFilter.OnActionExecuted method
+2025-07-01 22:46:10.081 -05:00 [INF] Before logic - ResponseHeaderActionFilter
+2025-07-01 22:46:10.083 -05:00 [INF] Before logic - ResponseHeaderActionFilter
+2025-07-01 22:46:10.084 -05:00 [INF] Before logic - ResponseHeaderActionFilter
+2025-07-01 22:46:10.088 -05:00 [INF] PersonsListResultFilter.OnResultExecutionAsync - before
+2025-07-01 22:46:10.097 -05:00 [INF] Executing ViewResult, running view Index.
+2025-07-01 22:46:10.446 -05:00 [INF] Executed ViewResult - view Index executed in 350.6693ms.
+2025-07-01 22:46:10.448 -05:00 [INF] PersonsListResultFilter.OnResultExecutionAsync - after
+2025-07-01 22:46:10.452 -05:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI) in 2147.5759ms
+2025-07-01 22:46:10.454 -05:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI)'
+2025-07-01 22:46:10.459 -05:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 02 Jul 2025 03:46:09 GMT
+Server: Kestrel
+Last-Modified: 2025-07-01 22:46
+My-Key-From-Global: [Redacted]
+MyKey-FromAction: [Redacted]
+My-Key-From-Controller: [Redacted]
+2025-07-01 22:46:10.463 -05:00 [INF] HTTP GET / responded 200 in 2641.3671 ms
+2025-07-01 22:46:10.479 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5153/ - - - 200 - text/html;+charset=utf-8 3048.5221ms
+2025-07-01 22:46:11.189 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5153/_vs/browserLink - -
+2025-07-01 22:46:11.189 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5153/_framework/aspnetcore-browser-refresh.js - -
+2025-07-01 22:46:11.189 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5153/Stylesheet.css - -
+2025-07-01 22:46:11.191 -05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Stylesheet.css
+2025-07-01 22:46:11.193 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5153/_framework/aspnetcore-browser-refresh.js - - - 200 13772 application/javascript;+charset=utf-8 4.6444ms
+2025-07-01 22:46:11.199 -05:00 [INF] The file /Stylesheet.css was not modified
+2025-07-01 22:46:11.200 -05:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Wed, 02 Jul 2025 07:55:36 GMT
+2025-07-01 22:46:11.200 -05:00 [INF] HTTP GET /Stylesheet.css responded 304 in 9.6579 ms
+2025-07-01 22:46:11.202 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5153/Stylesheet.css - - - 304 - text/css 13.1396ms
+2025-07-01 22:46:11.254 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 65.1183ms
+2025-07-01 22:46:14.231 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5153/ - -
+2025-07-01 22:46:14.234 -05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /
+2025-07-01 22:46:14.235 -05:00 [INF] Executing endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI)'
+2025-07-01 22:46:14.236 -05:00 [INF] Route matched with {action = "Index", controller = "Persons", area = ""}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] Index(System.String, System.String, System.String, ServiceContracts.Enums.SortOrderOptions) on controller CRUDExample.Controllers.PersonsController (ContactsManager.UI).
+2025-07-01 22:46:14.246 -05:00 [INF] Before logic - ResponseHeaderActionFilter
+2025-07-01 22:46:14.249 -05:00 [INF] Before logic - ResponseHeaderActionFilter
+2025-07-01 22:46:14.250 -05:00 [INF] Before logic - ResponseHeaderActionFilter
+2025-07-01 22:46:14.250 -05:00 [INF] PersonsListActionFilter.OnActionExecuting method
+2025-07-01 22:46:14.251 -05:00 [INF] Index action method of PersonsController
+2025-07-01 22:46:14.251 -05:00 [INF] GetFilteredPersons of PersonsService
+2025-07-01 22:46:14.252 -05:00 [INF] GetAllPersons of PersonsRepository
+2025-07-01 22:46:14.254 -05:00 [INF] Entity Framework Core 6.0.9 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:6.0.9' with options: None
+2025-07-01 22:46:14.262 -05:00 [INF] Executed DbCommand (5ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [p].[PersonID], [p].[Address], [p].[CountryID], [p].[DateOfBirth], [p].[Email], [p].[Gender], [p].[PersonName], [p].[ReceiveNewsLetters], [p].[TaxIdentificationNumber], [c].[CountryID], [c].[CountryName]
+FROM [Persons] AS [p]
+LEFT JOIN [Countries] AS [c] ON [p].[CountryID] = [c].[CountryID]
+2025-07-01 22:46:14.263 -05:00 [INF] Time for Filtered Persons from Database completed in 11.3 ms
+2025-07-01 22:46:14.264 -05:00 [INF] GetSortedPersons of PersonsService
+2025-07-01 22:46:14.264 -05:00 [INF] PersonsListActionFilter.OnActionExecuted method
+2025-07-01 22:46:14.265 -05:00 [INF] Before logic - ResponseHeaderActionFilter
+2025-07-01 22:46:14.265 -05:00 [INF] Before logic - ResponseHeaderActionFilter
+2025-07-01 22:46:14.266 -05:00 [INF] Before logic - ResponseHeaderActionFilter
+2025-07-01 22:46:14.266 -05:00 [INF] PersonsListResultFilter.OnResultExecutionAsync - before
+2025-07-01 22:46:14.267 -05:00 [INF] Executing ViewResult, running view Index.
+2025-07-01 22:46:14.270 -05:00 [INF] Executed ViewResult - view Index executed in 2.8318ms.
+2025-07-01 22:46:14.271 -05:00 [INF] PersonsListResultFilter.OnResultExecutionAsync - after
+2025-07-01 22:46:14.272 -05:00 [INF] Executed action CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI) in 34.5953ms
+2025-07-01 22:46:14.273 -05:00 [INF] Executed endpoint 'CRUDExample.Controllers.PersonsController.Index (ContactsManager.UI)'
+2025-07-01 22:46:14.273 -05:00 [INF] Response:
+StatusCode: 200
+Content-Type: text/html; charset=utf-8
+Date: Wed, 02 Jul 2025 03:46:14 GMT
+Server: Kestrel
+Last-Modified: 2025-07-01 22:46
+My-Key-From-Global: [Redacted]
+MyKey-FromAction: [Redacted]
+My-Key-From-Controller: [Redacted]
+2025-07-01 22:46:14.274 -05:00 [INF] HTTP GET / responded 200 in 40.0876 ms
+2025-07-01 22:46:14.275 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5153/ - - - 200 - text/html;+charset=utf-8 44.8068ms
+2025-07-01 22:46:14.288 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5153/Stylesheet.css - -
+2025-07-01 22:46:14.289 -05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /Stylesheet.css
+2025-07-01 22:46:14.290 -05:00 [INF] The file /Stylesheet.css was not modified
+2025-07-01 22:46:14.291 -05:00 [INF] Response:
+StatusCode: 304
+Content-Type: text/css
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Wed, 02 Jul 2025 07:55:36 GMT
+2025-07-01 22:46:14.291 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5153/_vs/browserLink - -
+2025-07-01 22:46:14.292 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5153/_framework/aspnetcore-browser-refresh.js - -
+2025-07-01 22:46:14.292 -05:00 [INF] HTTP GET /Stylesheet.css responded 304 in 2.7956 ms
+2025-07-01 22:46:14.294 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5153/_framework/aspnetcore-browser-refresh.js - - - 200 13772 application/javascript;+charset=utf-8 2.4778ms
+2025-07-01 22:46:14.295 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5153/_vs/browserLink - - - 200 - text/javascript;+charset=UTF-8 3.9931ms
+2025-07-01 22:46:14.295 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5153/Stylesheet.css - - - 304 - text/css 7.0635ms
+2025-07-01 22:46:14.317 -05:00 [INF] Request starting HTTP/2 GET https://localhost:5153/favicon.ico - -
+2025-07-01 22:46:14.318 -05:00 [INF] Request:
+Protocol: HTTP/2
+Method: GET
+Scheme: https
+PathBase: 
+Path: /favicon.ico
+2025-07-01 22:46:14.319 -05:00 [INF] The file /favicon.ico was not modified
+2025-07-01 22:46:14.320 -05:00 [INF] Response:
+StatusCode: 304
+Content-Type: image/x-icon
+Accept-Ranges: bytes
+ETag: [Redacted]
+Last-Modified: Wed, 02 Jul 2025 07:55:36 GMT
+2025-07-01 22:46:14.321 -05:00 [INF] HTTP GET /favicon.ico responded 304 in 2.5853 ms
+2025-07-01 22:46:14.322 -05:00 [INF] Request finished HTTP/2 GET https://localhost:5153/favicon.ico - - - 304 - image/x-icon 4.7600ms
