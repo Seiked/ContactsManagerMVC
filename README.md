@@ -15,6 +15,34 @@ Aplicación web desarrollada con **ASP.NET MVC** para gestionar contactos person
 
 ---
 
+## 🧪 Capturas del proyecto
+
+### 🔐 Login
+![Login](assets/login.png)
+
+### 🏠 Vista principal con listado de personas
+![Home](assets/home.png)
+
+### 📤 Filtro por múltiples criterios
+![Filter](assets/filterBy.png)
+
+### ➕ Crear persona
+![Create](assets/createView.png)
+
+### ✏️ Editar persona
+![Edit](assets/editView.png)
+
+### ❌ Eliminar persona
+![Delete](assets/deleteView.png)
+
+### 📁 Importar países desde Excel
+![Upload Countries](assets/uploadCountries.png)
+
+### 📄 Exportar a PDF
+![PDF](assets/dowloadAsPDF.png)
+
+---
+
 ## 🧱 Tecnologías utilizadas
 
 - **Backend:** ASP.NET MVC, C#, Entity Framework Core
